@@ -1,0 +1,17 @@
+{
+    "name": "api/cache",
+    "description": "Common API for Cache",
+    "keywords": ["api", "CommonApi", "cache"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AmyStephen",
+            "homepage": "http://Molajo.org/"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Api\\Cache\\": ""
+        }
+    }
+}
