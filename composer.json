@@ -1,17 +1,24 @@
 {
-    "name": "api/cache",
-    "description": "Common API for Cache",
+    "name": "commonapi/cache",
+    "description": "Common Cache Api Interface",
     "keywords": ["api", "CommonApi", "cache"],
+    "homepage": "https://github.com/CommonApi/Cache",
+    "type": "api",
     "license": "MIT",
     "authors": [
         {
             "name": "AmyStephen",
-            "homepage": "http://Molajo.org/"
+            "email": "AmyStephen@gmail.com",
+            "homepage": "http://Molajo.org"
         }
     ],
+    "require": {
+        "php": ">=5.3.10",
+        "commonapi/exception": ">=0.1"
+    },
     "autoload": {
         "psr-0": {
-            "Api\\Cache\\": ""
+            "CommonApi\\Cache\\": ""
         }
     }
 }
