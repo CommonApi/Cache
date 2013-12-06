@@ -14,7 +14,7 @@ namespace CommonApi\Cache;
  * @package    Cache
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  * @copyright  2013 Common Api. All rights reserved.
- * @since      1.0
+ * @since      0.1
  */
 interface CacheInterface
 {
@@ -24,7 +24,7 @@ interface CacheInterface
      * @param   string $key
      *
      * @return  bool
-     * @since   1.0
+     * @since   0.1
      */
     public function get($key);
 
@@ -36,7 +36,7 @@ interface CacheInterface
      * @param   integer $ttl (number of seconds)
      *
      * @return  bool
-     * @since   1.0
+     * @since   0.1
      */
     public function set($key = null, $value, $ttl = 0);
 
@@ -46,7 +46,7 @@ interface CacheInterface
      * @param   string $key
      *
      * @return  bool
-     * @since   1.0
+     * @since   0.1
      */
     public function remove($key = null);
 
@@ -54,7 +54,7 @@ interface CacheInterface
      * Clear all cache
      *
      * @return  bool
-     * @since   1.0
+     * @since   0.1
      */
     public function clear();
 }

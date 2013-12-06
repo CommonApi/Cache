@@ -14,7 +14,7 @@ namespace CommonApi\Cache;
  * @package    Cache
  * @copyright  2013 Common Api. All rights reserved.
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
- * @since      1.0
+ * @since      0.1
  */
 interface ConnectionInterface
 {
@@ -24,7 +24,7 @@ interface ConnectionInterface
      * @param   array $options
      *
      * @return  $this
-     * @since   1.0
+     * @since   0.1
      */
     public function connect($options = array());
 
@@ -32,7 +32,7 @@ interface ConnectionInterface
      * Close the Connection
      *
      * @return  $this
-     * @since   1.0
+     * @since   0.1
      */
     public function close();
 }

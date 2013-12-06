@@ -14,7 +14,7 @@ namespace CommonApi\Cache;
  * @package    Cache
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  * @copyright  2013 Common Api. All rights reserved.
- * @since      1.0
+ * @since      0.1
  */
 interface CacheItemInterface
 {
@@ -22,7 +22,7 @@ interface CacheItemInterface
      * Get the Key associated with this Cache Item
      *
      * @return  string  $key
-     * @since   1.0
+     * @since   0.1
      */
     public function getKey();
 
@@ -30,7 +30,7 @@ interface CacheItemInterface
      * Get the Value associated with this Cache Item
      *
      * @return  mixed  $key
-     * @since   1.0
+     * @since   0.1
      */
     public function getValue();
 
@@ -38,7 +38,7 @@ interface CacheItemInterface
      * True or false value as to whether or not the item exists in current cache
      *
      * @return  boolean
-     * @since   1.0
+     * @since   0.1
      */
     public function isHit();
 }
