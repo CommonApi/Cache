@@ -38,7 +38,7 @@ interface CacheInterface
      * @return  bool
      * @since   1.0
      */
-    public function set($key = null, $value, $ttl = 0);
+    public function set($key, $value, $ttl = 0);
 
     /**
      * Delete cache for specified $key value or expired cache
@@ -48,7 +48,7 @@ interface CacheInterface
      * @return  bool
      * @since   1.0
      */
-    public function remove($key = null);
+    public function remove($key);
 
     /**
      * Clear all cache
