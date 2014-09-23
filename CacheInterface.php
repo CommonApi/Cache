@@ -24,7 +24,7 @@ interface CacheInterface
      * @param   string $key
      *
      * @return  bool
-     * @since   1.0
+     * @since   1.0.0
      */
     public function get($key);
 
@@ -36,7 +36,7 @@ interface CacheInterface
      * @param   integer $ttl (number of seconds)
      *
      * @return  bool
-     * @since   1.0
+     * @since   1.0.0
      */
     public function set($key, $value, $ttl = 0);
 
@@ -46,7 +46,7 @@ interface CacheInterface
      * @param   string $key
      *
      * @return  bool
-     * @since   1.0
+     * @since   1.0.0
      */
     public function remove($key);
 
@@ -54,7 +54,7 @@ interface CacheInterface
      * Clear all cache
      *
      * @return  bool
-     * @since   1.0
+     * @since   1.0.0
      */
     public function clear();
 }
